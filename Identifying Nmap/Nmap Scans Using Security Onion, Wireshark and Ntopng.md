@@ -8,7 +8,7 @@ So did we get something juicy? First, let's check Security Onion.
 
 As you can see, we had a lot of failed authentication and user login attempts, followed by some dope stiff arms by the firewall. Let's head over to Wireshark!
 
-
+![Wireshark](https://github.com/oaotwinn/Cybersecurity-Projects/blob/a17270ee9c69b9d9e14559fbd9e9d21aacbc6373/Identifying%20Nmap/Wireshark1.png)
 
 Now we're talking! This thing lit up like a Christmas tree! The first sign of trouble was all that RED. Now, red is not necessarily a sign that something is wrong, but it is definitely something worth paying attention to. Let's dive a little deeper. We also notice that we have a lot of SYN packets without any ACK packets responding. Our knowledge of the TCP handshake tells us that the order of operation should be SYN, SYN/ACK, ACK. In this case, we just got a whole bunch of SYN and RST packets without any acknowledgements. HUGE RED FLAG!!! Another thing to notice is the high frequency in a short amount of time, very very sus. Let's move on to NetFlow.
 
