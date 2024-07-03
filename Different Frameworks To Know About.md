@@ -3,10 +3,15 @@ NIST 800-53
 NIST 800-53 is a set of rules to help organizations keep their information safe. It provides a list of security practices to protect data and systems, like controlling access, monitoring activity, and responding to incidents. It helps organizations manage risks and follow security standards. One example of a security practice is Incident Response or IR, we can use this control to combat a compromised network. NIST 800-53 sugest that we follow this plan when dealing with a compromised network: 
 
 Preparation: The organization has an incident response policy, trained personnel, and an incident response plan in place.
+
 Detection and Analysis: Security monitoring tools detect unusual activity, and the incident response team analyzes the incident to determine its scope and impact.
+
 Containment: The team isolates affected systems to prevent the malware from spreading further.
+
 Eradication: The team removes the malware from the infected systems and ensures no traces are left.
+
 Recovery: The team restores affected systems to normal operation and monitors them for any signs of recurring issues.
+
 Post-Incident Activity: The incident is documented, and a report is created. The incident response plan is reviewed and updated based on lessons learned
 
 
