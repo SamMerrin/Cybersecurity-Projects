@@ -14,7 +14,7 @@ Now we're talking! This thing lit up like a Christmas tree! The first sign of tr
 
 ![Ntopng](https://github.com/oaotwinn/Cybersecurity-Projects/blob/6e7dad314ee8082fc5020d3e8583896dfbb7f85d/Identifying%20Nmap/ntopng1.png)
 
-This was the biggest letdown of the whole project for me. I think it was a combination of me not having the best grasp when it comes to ntopng (if you are a hiring manager reading this, just pretend I never said that please) and that NetFlow is not as detailed when it comes to reviewing data like Wireshark. We have one flow going, which was my Security Onion actually, and not much of anything else. Normally, a high amount of flows is definitely something to look out for, and I will say that when looking through Ntopng, I did see a lot of attempts to communicate with a huge number of destination ports. Which is, as we know by now, a port scan.
+This was the biggest letdown of the whole project for me. I think it was a combination of me not having the best grasp when it comes to ntopng (if you are a hiring manager reading this, just pretend I never said that please) and that NetFlow is not as detailed when it comes to reviewing data like Wireshark. Normally, a high amount of flows is definitely something to look out for, and I will say that when looking through Ntopng, I did see a lot of attempts to communicate with a huge number of destination ports. Which is, as we know by now, is a port scan.
 
 
 
