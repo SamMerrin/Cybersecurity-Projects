@@ -6,7 +6,7 @@ So did we get something juicy? First, let's check Security Onion.
 
 ![Security Onion](https://github.com/oaotwinn/Cybersecurity-Projects/blob/0189172cb7e24c2c4910a0faddaaaeb0c9eae182/Identifying%20Nmap/SecurityOnion1.png)
 
-As you can see, we had a lot of failed authentication and user login attempts, followed by some dope stiff arms by the firewall. Let's head over to Wireshark!
+As you can see, we had a lot of failed authentication and user login attempts, followed by some dope stiff arms by the firewall. Tools like Security Onion and Kibana use automation to sniff out anomolies and indicators of attack like these. They compile data from all different types of logs including syslog, DHCP, DNS, and proxies. Let's head over to Wireshark!
 
 ![Wireshark](https://github.com/oaotwinn/Cybersecurity-Projects/blob/a17270ee9c69b9d9e14559fbd9e9d21aacbc6373/Identifying%20Nmap/Wireshark1.png)
 
