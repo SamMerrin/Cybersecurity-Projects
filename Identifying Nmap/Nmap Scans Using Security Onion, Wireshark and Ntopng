@@ -4,7 +4,7 @@ So the purpose of this project was to identify nmap and hydra scans and attacks 
 
 So did we get something juicy? First, let's check Security Onion.
 
-![Security Onion](Identifying Nmap/SecurityOnion1.png)
+![Security Onion](https://github.com/oaotwinn/Cybersecurity-Projects/blob/0189172cb7e24c2c4910a0faddaaaeb0c9eae182/Identifying%20Nmap/SecurityOnion1.png)
 
 As you can see, we had a lot of failed authentication and user login attempts, followed by some dope stiff arms by the firewall. Let's head over to Wireshark!
 
