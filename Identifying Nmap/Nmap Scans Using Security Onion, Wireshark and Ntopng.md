@@ -12,7 +12,7 @@ As you can see, we had a lot of failed authentication and user login attempts, f
 
 Now we're talking! This thing lit up like a Christmas tree! The first sign of trouble was all that RED. Now, red is not necessarily a sign that something is wrong, but it is definitely something worth paying attention to. Let's dive a little deeper. We also notice that we have a lot of SYN packets without any ACK packets responding. Our knowledge of the TCP handshake tells us that the order of operation should be SYN, SYN/ACK, ACK. In this case, we just got a whole bunch of SYN and RST packets without any acknowledgements. HUGE RED FLAG!!! Another thing to notice is the high frequency in a short amount of time, very very sus. Let's move on to NetFlow.
 
-
+![Ntopng](https://github.com/oaotwinn/Cybersecurity-Projects/blob/6e7dad314ee8082fc5020d3e8583896dfbb7f85d/Identifying%20Nmap/ntopng1.png)
 
 This was the biggest letdown of the whole project for me. I think it was a combination of me not having the best grasp when it comes to ntopng (if you are a hiring manager reading this, just pretend I never said that please) and that NetFlow is not as detailed when it comes to reviewing data like Wireshark. We have one flow going, which was my Security Onion actually, and not much of anything else. Normally, a high amount of flows is definitely something to look out for, and I will say that when looking through Ntopng, I did see a lot of attempts to communicate with a huge number of destination ports. Which is, as we know by now, a port scan.
 
