@@ -34,6 +34,7 @@ Command and Control (C2): The attacker establishes remote control over the malwa
 
 Actions on Objectives: The attacker achieves their goal, such as stealing data or disrupting operations.
 
+
 How we fight this is by:
 
 Reconnaissance: Monitor for unusual scanning or access. 
